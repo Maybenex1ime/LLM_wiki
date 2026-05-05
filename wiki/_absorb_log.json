@@ -1,4 +1,30 @@
 {
-  "last_updated": null,
-  "sources": {}
+  "last_updated": "2026-05-05",
+  "sources": {
+    "raw/papers/Lion Studios MVP Guide.pptx.pdf": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "lion-studios",
+        "hard-level-design",
+        "easy-level-design",
+        "ftue-curve",
+        "level-funnel-heartbeat"
+      ]
+    },
+    "raw/papers/Lion.pdf": {
+      "absorbed_at": "2026-05-05",
+      "wiki_articles": [
+        "lion-studios",
+        "hard-level-design",
+        "easy-level-design",
+        "ftue-curve",
+        "level-funnel-heartbeat",
+        "booster-design-puzzle",
+        "new-mechanic-introduction",
+        "timer-design",
+        "level-iteration-testing",
+        "rv-placement-strategy"
+      ]
+    }
+  }
 }
