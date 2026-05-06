@@ -11,6 +11,10 @@ related:
   - "[[rv-placement-strategy]]"
   - "[[booster-design-puzzle]]"
   - "[[lion-studios]]"
+  - "[[metric-diagnosis-4-methods]]"
+  - "[[economy-balance-dashboard]]"
+  - "[[level-analytics-dashboard]]"
+  - "[[player-journey-dashboard]]"
 summary: "Hard level trong puzzle game là currency sink để trigger booster/revive — không phải để chặn người chơi"
 ---
 

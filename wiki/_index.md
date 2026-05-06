@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 10
-**Last updated:** 2026-05-05
+**Total articles:** 20
+**Last updated:** 2026-05-06
 
 ---
 
-## Concepts (9 articles)
+## Concepts (18 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -27,12 +27,22 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[timer-design]] | thiết kế timer, time-based puzzle | Quy trình set timer cho puzzle level — before/after first test methodology |
 | [[level-iteration-testing]] | iteration testing, S1-S4 testing | 4 phases test (S1-S4) và quick funnel/level fix techniques |
 | [[rv-placement-strategy]] | rewarded video placement, RV slot | Cách đặt RV slot trong level để monetize mà không cannibalize booster/IAP revenue |
+| [[game-analytics-mindset]] | tư duy phân tích game, quy trình 6 bước | Khung tư duy phân tích game — 5 nguyên tắc + quy trình 6 bước biến mục tiêu thành event tracking |
+| [[funnel-analysis]] | phân tích funnel, conversion funnel | Funnel — chuỗi tuần tự các bước hành vi để xác định bottleneck (RV, IAP, retention funnel) |
+| [[metric-diagnosis-4-methods]] | 4 method analysis, chẩn đoán KPI | 4 phương pháp khoanh vùng nguyên nhân biến động chỉ số — timing, dimension, related, reference |
+| [[economy-balance-dashboard]] | economy dashboard, soft currency dashboard | 11 chart phân tích cân bằng kinh tế (Earn vs Sink) puzzle game — từ tổng thể đến level và segment |
+| [[level-analytics-dashboard]] | level analytics, level performance dashboard | 22 chỉ số + 17 case pattern action cho từng level — engagement, drop, booster, pacing, monetization |
+| [[monetization-dashboard]] | monetization dashboard, iap ads dashboard | 9 chart doanh thu IAP + Ads, ARPDAU, RPI, conversion, ad load, cohort revenue, purchase depth |
+| [[offer-system-dashboard]] | offer dashboard, offer analytics | 5 chart hiệu quả Offer/Pack — revenue, volume, conversion từ shown, first purchase timing |
+| [[player-journey-dashboard]] | player journey, level funnel dashboard | 6 chart hành trình người chơi — reach rate, churn level, win/lose có-không booster, playerbase |
+| [[retention-dashboard]] | retention dashboard, dau pau dashboard | 6 chart retention theo cohort, DAU/PAU, install Paid vs Organic, session count & length |
 
-## Tools (1 article)
+## Tools (2 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
 | [[lion-studios]] | Lion Studios by AppLovin | Publisher mobile casual games — nguồn của Level Design Playbook và MVP Guidelines |
+| [[databuckets]] | Databuckets, query builder | Nền tảng analytics cho game với Query Builder dạng step-by-step |
 
 ## People (0 articles)
 
@@ -48,12 +58,19 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 ---
 
-## Raw Sources (2 documents)
+## Raw Sources (9 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
 | `raw/papers/Lion Studios MVP Guide.pptx.pdf` | Paper (PPTX→PDF, 17 pages) | 2026-05-05 |
 | `raw/papers/Lion.pdf` | Paper (Level Design Playbook, 32 pages, image-based) | 2026-05-05 |
+| `raw/papers/User Guideline _ Phương pháp phân tích & tối ưu Game.html` | Paper (Databuckets training guide, ~1150 lines extracted) | 2026-05-06 |
+| `raw/papers/XGAME_DA_ ..._Economy.pdf` | Paper (XGAME Economy dashboard, 10 pages, 11 charts) | 2026-05-06 |
+| `raw/papers/XGAME_DA_ ..._Level Analytics.md` | Markdown (XGAME Level Analytics guide, 386 lines) | 2026-05-06 |
+| `raw/papers/XGAME_DA_ ..._Monetization.pdf` | Paper (XGAME Monetization dashboard, 7 pages, 9 charts) | 2026-05-06 |
+| `raw/papers/XGAME_DA_ ..._Offer System.pdf` | Paper (XGAME Offer System dashboard, 5 pages, 5 charts) | 2026-05-06 |
+| `raw/papers/XGAME_DA_ ..._Player Journey.pdf` | Paper (XGAME Player Journey dashboard, 6 pages, 6 charts) | 2026-05-06 |
+| `raw/papers/XGAME_DA_ ..._Retention.pdf` | Paper (XGAME Retention dashboard, 5 pages, 6 charts) | 2026-05-06 |
 
 ---
 

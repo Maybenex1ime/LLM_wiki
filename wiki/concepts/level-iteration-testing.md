@@ -10,6 +10,9 @@ related:
   - "[[level-funnel-heartbeat]]"
   - "[[rv-placement-strategy]]"
   - "[[lion-studios]]"
+  - "[[game-analytics-mindset]]"
+  - "[[metric-diagnosis-4-methods]]"
+  - "[[level-analytics-dashboard]]"
 summary: "4 phases test (S1-S4) và quick funnel/level fix techniques theo Lion Studios"
 ---
 

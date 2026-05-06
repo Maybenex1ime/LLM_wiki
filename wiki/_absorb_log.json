@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05",
+  "last_updated": "2026-05-06",
   "sources": {
     "raw/papers/Lion Studios MVP Guide.pptx.pdf": {
       "absorbed_at": "2026-05-05",
@@ -25,6 +25,56 @@
         "level-iteration-testing",
         "rv-placement-strategy"
       ]
+    },
+    "raw/papers/User Guideline _ Phương pháp phân tích & tối ưu Game.html": {
+      "absorbed_at": "2026-05-06",
+      "wiki_articles": [
+        "game-analytics-mindset",
+        "funnel-analysis",
+        "metric-diagnosis-4-methods",
+        "databuckets"
+      ]
+    },
+    "raw/papers/XGAME_DA_ Hướng dẫn đọc phân tích các chart trong dashboard_Economy.pdf": {
+      "absorbed_at": "2026-05-06",
+      "wiki_articles": [
+        "economy-balance-dashboard"
+      ],
+      "assets": "wiki/concepts/economy-balance-dashboard.assets/ (11 chart images)"
+    },
+    "raw/papers/XGAME_DA_ Hướng dẫn đọc phân tích các chart trong dashboard_Level Analytics.md": {
+      "absorbed_at": "2026-05-06",
+      "wiki_articles": [
+        "level-analytics-dashboard"
+      ]
+    },
+    "raw/papers/XGAME_DA_ Hướng dẫn đọc phân tích các chart trong dashboard_Monetization.pdf": {
+      "absorbed_at": "2026-05-06",
+      "wiki_articles": [
+        "monetization-dashboard"
+      ],
+      "assets": "wiki/concepts/monetization-dashboard.assets/ (9 chart images)"
+    },
+    "raw/papers/XGAME_DA_ Hướng dẫn đọc phân tích các chart trong dashboard_Offer System.pdf": {
+      "absorbed_at": "2026-05-06",
+      "wiki_articles": [
+        "offer-system-dashboard"
+      ],
+      "assets": "wiki/concepts/offer-system-dashboard.assets/ (5 chart images)"
+    },
+    "raw/papers/XGAME_DA_ Hướng dẫn đọc phân tích các chart trong dashboard_Player Journey.pdf": {
+      "absorbed_at": "2026-05-06",
+      "wiki_articles": [
+        "player-journey-dashboard"
+      ],
+      "assets": "wiki/concepts/player-journey-dashboard.assets/ (6 chart images)"
+    },
+    "raw/papers/XGAME_DA_ Hướng dẫn đọc phân tích các chart trong dashboard_Retention.pdf": {
+      "absorbed_at": "2026-05-06",
+      "wiki_articles": [
+        "retention-dashboard"
+      ],
+      "assets": "wiki/concepts/retention-dashboard.assets/ (6 chart images)"
     }
   }
 }

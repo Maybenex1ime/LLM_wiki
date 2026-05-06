@@ -12,6 +12,9 @@ related:
   - "[[new-mechanic-introduction]]"
   - "[[booster-design-puzzle]]"
   - "[[lion-studios]]"
+  - "[[funnel-analysis]]"
+  - "[[player-journey-dashboard]]"
+  - "[[retention-dashboard]]"
 summary: "Curve fail rate cho 20-25 levels đầu của puzzle game theo Lion Studios — 0-5% → 8-10% → 15% → 20%"
 ---
 

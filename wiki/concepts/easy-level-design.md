@@ -11,6 +11,7 @@ related:
   - "[[level-funnel-heartbeat]]"
   - "[[rv-placement-strategy]]"
   - "[[lion-studios]]"
+  - "[[economy-balance-dashboard]]"
 summary: "Easy level <1.3 attempts — chứa monetization potential lớn nếu làm khó hơn 1 chút và ngắn hơn 20%"
 ---
 

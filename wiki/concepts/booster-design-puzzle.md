@@ -10,6 +10,9 @@ related:
   - "[[ftue-curve]]"
   - "[[rv-placement-strategy]]"
   - "[[lion-studios]]"
+  - "[[economy-balance-dashboard]]"
+  - "[[level-analytics-dashboard]]"
+  - "[[player-journey-dashboard]]"
 summary: "Booster design theo Lion Studios — 3 function types (PA/SE/RD), combo composition, rollout schedule"
 ---
 
