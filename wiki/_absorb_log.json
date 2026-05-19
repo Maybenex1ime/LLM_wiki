@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-15",
   "sources": {
     "raw/papers/Lion Studios MVP Guide.pptx.pdf": {
       "absorbed_at": "2026-05-05",
@@ -75,6 +75,84 @@
         "retention-dashboard"
       ],
       "assets": "wiki/concepts/retention-dashboard.assets/ (6 chart images)"
+    },
+    "raw/videos/negaxy-iec-gd-doc-01-gd-role-mindset.md": {
+      "absorbed_at": "2026-05-15",
+      "wiki_articles": [
+        "gd-role-as-machine-link",
+        "5-levels-of-idea",
+        "ltv-cpi-formula",
+        "ecpm-blackbox",
+        "iaa-iap-migration",
+        "daily-login-design",
+        "vu-negaxy",
+        "hiep-iec",
+        "negaxy-iec-gd-course"
+      ]
+    },
+    "raw/videos/negaxy-iec-gd-doc-02-level-design.md": {
+      "absorbed_at": "2026-05-15",
+      "wiki_articles": [
+        "match3-difficulty-levers",
+        "chip-spawn-algorithm",
+        "inter-reward-ratio",
+        "asset-hardware-tradeoff",
+        "feeling-of-assets",
+        "level-content-vs-level-data",
+        "replay-rate-distribution",
+        "giang-student"
+      ]
+    },
+    "raw/videos/negaxy-iec-gd-doc-03-phase-du-an.md": {
+      "absorbed_at": "2026-05-15",
+      "wiki_articles": [
+        "prototype-vs-mvp",
+        "fueling-pacing",
+        "d7-vs-d3-breakeven",
+        "balance-scale",
+        "arpu-vs-arppu",
+        "imba-balance-meta",
+        "ui-vs-ux",
+        "inter-ad-redefinition",
+        "retention-curve-design"
+      ]
+    },
+    "raw/videos/negaxy-iec-gd-doc-04-level-data-and-iap.md": {
+      "absorbed_at": "2026-05-15",
+      "wiki_articles": [
+        "file-y-do-design-intent",
+        "level-data-vs-handcrafted",
+        "pattern-habit-break",
+        "match3-player-archetypes",
+        "hidden-variable-difficulty",
+        "iap-pricing-user-value",
+        "iap-purchase-drivers",
+        "rpg-unit-weakness-principle"
+      ]
+    },
+    "raw/videos/negaxy-iec-gd-doc-07-ui-ux-monetize.md": {
+      "absorbed_at": "2026-05-15",
+      "wiki_articles": [
+        "ux-3-criteria",
+        "notification-management",
+        "thumb-zone-design",
+        "auto-equip-design",
+        "dark-ux-techniques",
+        "piggy-bank-monetization",
+        "subscription-pack-design",
+        "first-iap-strategy"
+      ]
+    },
+    "raw/videos/negaxy-iec-gd-doc-08-phan-tap-user.md": {
+      "absorbed_at": "2026-05-15",
+      "wiki_articles": [
+        "user-segmentation-3-axes",
+        "s-t-genre-grid",
+        "mobile-vs-pc-console-skill",
+        "organic-rate-interpretation",
+        "leaderboard-permanent-vs-seasonal",
+        "user-archetype-asset-vs-self-expression"
+      ]
     }
   }
 }

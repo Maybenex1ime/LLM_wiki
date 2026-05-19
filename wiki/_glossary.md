@@ -13,8 +13,13 @@ summary: "Key terms and definitions used across the wiki"
 
 ## ARPU
 **Translation:** Average Revenue Per User
-**Definition:** Doanh thu trung bình trên mỗi người chơi. Track riêng theo level (Level ARPU) và cumulative (Cum ARPU).
-**See also:** [[level-iteration-testing]]
+**Definition:** Doanh thu trung bình trên mỗi người chơi (kể cả free user). Track riêng theo level (Level ARPU) và cumulative (Cum ARPU). Vũ khuyến cáo game ERP đẩy ARPU qua tăng pay rate, không chỉ ARPPU.
+**See also:** [[level-iteration-testing]], [[arpu-vs-arppu]]
+
+## ARPPU
+**Translation:** Average Revenue Per Paying User
+**Definition:** Doanh thu / chỉ số user đã trả tiền. ARPPU cao + pay rate thấp = whale-heavy; ARPPU cân bằng + pay rate cao = distributed.
+**See also:** [[arpu-vs-arppu]]
 
 ## ARPDAU
 **Translation:** Average Revenue Per Daily Active User
@@ -145,3 +150,133 @@ summary: "Key terms and definitions used across the wiki"
 **Translation:** Level làm nóng
 **Definition:** Level đặt sau cooldown, re-increase difficulty từ từ. Không gây fails nhiều nhưng player phải cẩn thận.
 **See also:** [[level-funnel-heartbeat]]
+
+## 5 Levels Of Idea
+**Translation:** Thang 5 mức độ chín idea
+**Definition:** Khung Vũ phân tầng idea khi pitch sếp: L1 (mô tả như user), L2 (bóc tách element), L3 (cách triển khai), L4 (logic monetization), L5 (original có giải pháp CPI).
+**See also:** [[5-levels-of-idea]]
+
+## Mũ Nét (Money Knot)
+**Translation:** Điểm tiêu tiền của user trong game
+**Definition:** Vị trí thiết kế monetization point. Game "lãi ở đây" = mũ nét ngay D0/D1 (hyper); game "lãi ở đây mũ" = mũ nét sâu trong game (hybrid, dễ scale).
+**See also:** [[fueling-pacing]], [[d7-vs-d3-breakeven]]
+
+## Fueling
+**Translation:** Pacing khai thác value
+**Definition:** Tốc độ / phân bổ khai thác value từ user qua thời gian. Hyper ép D0/D1; Hybrid/ERP dàn trải D3-D7+. Khác với "fueling = battle simulation" mà một số bản phiên âm sai.
+**See also:** [[fueling-pacing]]
+
+## Imba (Balance)
+**Translation:** Imbalance — mất cân bằng
+**Definition:** Khi MTV (Material Target Value) user mua không khớp với Power yêu cầu tại checkpoint. Imba cao quá sớm = user vượt content; imba thấp = user trả tiền xong vẫn không qua được.
+**See also:** [[imba-balance-meta]]
+
+## Dark UX (Đắc UX)
+**Translation:** Kỹ thuật UX có chủ đích lừa user
+**Definition:** Trade-off tăng conversion với rủi ro retention. Bao gồm Click vs Hold, đảo X3, Arm Break, bán content khoá level. *"Chỉ dùng khi monetize lành mạnh đã tối ưu nhưng conversion vẫn thấp."*
+**See also:** [[dark-ux-techniques]]
+
+## Piggy Bank
+**Translation:** Lợn tích tiền
+**Definition:** Cơ chế hút máu — tiền user kiếm tự động vào "lợn", phải xem ad hoặc trả tiền để rút. Chu kỳ 9-15 phút khớp session 40-50 phút.
+**See also:** [[piggy-bank-monetization]]
+
+## Arm Break
+**Translation:** Animation giải lao trước inter
+**Definition:** Pattern Voodoo: animation 2 giây với icon cốc cà phê dạy user "= giải lao bình thường". Sau khi train, spam Inter với cùng icon → user tưởng arm break, không skip.
+**See also:** [[dark-ux-techniques]]
+
+## File Ý Đồ
+**Translation:** Design intent document
+**Definition:** 1 trong 2 file đầu vào của level design (file tiêu chí + file ý đồ → file output). Bao gồm lộ trình + cách triển khai. Tồn tại để designer không quên ý định giữa chừng.
+**See also:** [[file-y-do-design-intent]]
+
+## Pattern Habit Break
+**Translation:** Phá thói quen người chơi
+**Definition:** Kỹ thuật tạo độ khó: 3 level đầu tạo thói quen (pattern lặp lại) → 1 level phá (thay đổi 1 element nhỏ) → user chết 1 lần → đạt tỷ lệ replay đã set.
+**See also:** [[pattern-habit-break]]
+
+## Hidden Variable
+**Translation:** Biến ẩn điều chỉnh khó
+**Definition:** Các biến không hiển thị (freestyle ratio, drop rate, mix density) để tune khó sau IAP mà user không nhận ra.
+**See also:** [[hidden-variable-difficulty]]
+
+## Tắc Ẩn
+**Translation:** RNG có chủ đích chặn level
+**Definition:** Pattern Match-3: chặn level qua tỷ lệ chip drop + bố cục sinh chip, không qua moves/time/obstacle hiển nhiên. Là lever 5 trong 5 yếu tố tạo độ khó.
+**See also:** [[match3-difficulty-levers]], [[chip-spawn-algorithm]]
+
+## MVP (Minimum Value Product)
+**Translation:** Bản nhỏ nhất có thể test thị trường
+**Definition:** Bản đẩy ra thị trường thu data thật (đủ gameplay loop, vẫn là minimum, không full feature). Khác với Prototype (bản thử nghiệm nội bộ).
+**See also:** [[prototype-vs-mvp]]
+
+## Prototype
+**Translation:** Bản thử nghiệm sơ khai
+**Definition:** Bản test idea + truyền đạt ý đồ nội bộ. Sơ khai, biến số ít nhất. Không phải bản đẩy ra thị trường.
+**See also:** [[prototype-vs-mvp]]
+
+## CTR (Click-Through Rate)
+**Translation:** Tỷ lệ click vào ad
+**Definition:** Tỷ lệ user click vào ad / tổng impression. Cũng dùng làm metric đầu tiên đánh giá prototype có được chấp nhận không (chạy 10 user → CTR ~80% → idea OK).
+**See also:** [[prototype-vs-mvp]], [[ecpm-blackbox]]
+
+## Subscription Pack
+**Translation:** Gói tự trừ tiền định kỳ
+**Definition:** Phù hợp game content/view (nhạc, đọc, xem phim). Pay rate Amanote 1.3-3%. Khác với Battle Pass (mua 1 lần / 30 ngày, không auto-renew).
+**See also:** [[subscription-pack-design]]
+
+## Thumb Zone
+**Translation:** Vùng ngón cái tầm tay
+**Definition:** Vùng ngón cái user dễ với tới trên màn hình điện thoại. Nút quan trọng (đặc biệt IAP) phải nằm trong vùng này.
+**See also:** [[thumb-zone-design]]
+
+## Phá UI
+**Translation:** Đập vỡ grid hút mắt
+**Definition:** Cố tình thiết kế lệch grid để hút mắt vào element quan trọng (thường là IAP). Designer chấp nhận UI không cân đối nếu tăng click rate.
+**See also:** [[thumb-zone-design]]
+
+## S × T Grid
+**Translation:** Lưới phân loại genre user
+**Definition:** Lưới 2 chiều: S (sở thích — trục dọc) × T (tư chất — trục ngang). Ví dụ: S1T2 = casual repeat (Sudoku); S2T2-T4 = challenge cao tay (MOBA).
+**See also:** [[s-t-genre-grid]], [[user-segmentation-3-axes]]
+
+## T2 / T3 / T4
+**Translation:** Tier tư chất user
+**Definition:** T4 = siêu nhân (tìm counter optimal); T3 = support, profit, bang chủ; T2 = nhanh tay nhanh mắt, top spender. IAP strategy khác cho mỗi tier.
+**See also:** [[user-segmentation-3-axes]]
+
+## Cất Bằng Sai Đồng Tiền
+**Translation:** Định giá IAP sai
+**Definition:** Anti-pattern: bán gói $10 mở ra $300 worth journey → user đi dài quá, designer chưa kịp set next paywall.
+**See also:** [[iap-pricing-user-value]]
+
+## Buy7
+**Translation:** % user mua IAP trong 7 ngày đầu
+**Definition:** Metric IAP. Buy7 1.8% là cao bất thường (con bắn máy bay cao nhất 0.07%) nhưng có thể signal progress mất cân bằng — user mua nhiều tier thấp, không leo tier cao.
+**See also:** [[iap-pricing-user-value]]
+
+## D7 Hoà / D3 Hoà
+**Translation:** Break-even ở ngày 7 / ngày 3
+**Definition:** Tổng doanh thu = chi phí UA ở D7 hoặc D3. D7 dễ scale qua UA hơn (ROAS/GPA target xa cho phép pool user lớn).
+**See also:** [[d7-vs-d3-breakeven]]
+
+## Balance Scale
+**Translation:** Sơ đồ phân tỷ trọng module
+**Definition:** Bảng phân % giữa các module (core, phụ bản, PvP, sự kiện). Tổng phải 100%. Thêm module mới phải bớt từ module khác.
+**See also:** [[balance-scale]]
+
+## Organic Rate
+**Translation:** Tỷ lệ user tải về tự nhiên
+**Definition:** % user install không qua marketing. Vũ note là thuật toán Google, designer không kiểm soát. Organic cao không suy ra tập user trẻ — phải tách tỷ lệ vs số tuyệt đối, trend tạm thời vs ổn định.
+**See also:** [[organic-rate-interpretation]]
+
+## Auto-Equip
+**Translation:** Tự động lắp trang bị
+**Definition:** Pattern UX phù hợp game 1 hero (Loại 1) hoặc 10+ hero (Loại 3), không phù hợp 1-5 hero không có fun role (Loại 2b) vì hero tranh đồ lẫn nhau.
+**See also:** [[auto-equip-design]]
+
+## Fun Role
+**Translation:** Class cố định cho hero
+**Definition:** Khi mỗi hero có class riêng (kiếm/cung/giáo), pool đồ phân tách → không tranh đồ. Quyết định auto-equip có phù hợp hay không.
+**See also:** [[auto-equip-design]]

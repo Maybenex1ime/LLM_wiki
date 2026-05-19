@@ -13,6 +13,8 @@ related:
   - "[[lion-studios]]"
   - "[[funnel-analysis]]"
   - "[[monetization-dashboard]]"
+  - "[[inter-reward-ratio]]"
+  - "[[inter-ad-redefinition]]"
 summary: "Cách đặt RV slot trong level để monetize mà không cannibalize booster/IAP revenue"
 ---
 

@@ -13,6 +13,8 @@ related:
   - "[[economy-balance-dashboard]]"
   - "[[level-analytics-dashboard]]"
   - "[[player-journey-dashboard]]"
+  - "[[hidden-variable-difficulty]]"
+  - "[[iap-purchase-drivers]]"
 summary: "Booster design theo Lion Studios — 3 function types (PA/SE/RD), combo composition, rollout schedule"
 ---
 

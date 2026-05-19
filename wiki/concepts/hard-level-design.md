@@ -15,6 +15,9 @@ related:
   - "[[economy-balance-dashboard]]"
   - "[[level-analytics-dashboard]]"
   - "[[player-journey-dashboard]]"
+  - "[[match3-difficulty-levers]]"
+  - "[[hidden-variable-difficulty]]"
+  - "[[pattern-habit-break]]"
 summary: "Hard level trong puzzle game là currency sink để trigger booster/revive — không phải để chặn người chơi"
 ---
 
