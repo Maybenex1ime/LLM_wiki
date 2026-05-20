@@ -34,6 +34,8 @@ Hiệp đóng góp các framework có tính business/UA hơn:
 - **[[inter-ad-redefinition]]** — case giãn inter LTV tăng 60-70% (Logic 1 vs Logic 2 trong Doc 3).
 - **[[fueling-pacing]]** — case kéo điểm hoà từ D2 sang D7 trong cùng cấu trúc game.
 - **[[d7-vs-d3-breakeven]]** — phân tích UA scale logic.
+- **[[single-button-skill-collapse]]** — Hiệp's con Negabon là case study UX collapse skill flow: thay vì menu skill 3-4 tap, gộp về 1 tap trên thanh phong độ (Vũ cite trong Doc 6 P2).
+- **[[multi-start-design]]** — Hiệp's game thẻ bài 3 hệ Pokemon-style là case defendable cho multi-start với encounter friendly + circular balance post-checkpoint.
 
 ## Phong Cách
 

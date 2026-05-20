@@ -9,12 +9,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 > Master catalog of the entire wiki. This file is automatically updated by the AI every time an article is added or removed.
 
-**Total articles:** 68
-**Last updated:** 2026-05-15
+**Total articles:** 102
+**Last updated:** 2026-05-20
 
 ---
 
-## Concepts (53 articles)
+## Concepts (81 articles)
 
 ### Game Design Mindset & Business
 
@@ -76,10 +76,53 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
-| [[ux-3-criteria]] | 3 tiêu chí UX | (1) số bước thao tác, (2) thông tin, (3) quản trị sự chú ý / giảm thiểu quyết định |
+| [[ux-3-criteria]] | 3 tiêu chí UX, 3 Giảm Thiểu | (1) số bước thao tác, (2) thông tin, (3) quản trị sự chú ý / giảm thiểu quyết định. Doc 6 P2 + Doc 7 |
+| [[ux-yeu-ich-definition]] | yêu ích, dual-goal UX | UX = tối ưu trải nghiệm × tối đa lợi ích nhà sản xuất (từ sách Pháp inspire Apple) |
+| [[behavior-vs-stated-preference]] | hành vi vs lời nói | User nói A làm B → design cho B. Case 3 quán ăn quen |
+| [[inherited-habit-conventions]] | inherited habit, icon convention | Icon home/hotel/settings đã universal. Reinvent = phá habit, force re-learn |
+| [[value-perception-techniques]] | big numbers, anchor, Highland upsell | 4 kỹ thuật: 100 gold > 1 gold, 33% > 7%, gift-on-package, +2k-3k size L |
 | [[thumb-zone-design]] | thumb zone, phá UI | Nút quan trọng (IAP) phải nằm trong vùng ngón cái. Phá UI = cố tình lệch grid để hút mắt |
 | [[notification-management]] | 5 loại noti, user vs designer priority | 5 loại noti (Reward/Playable/Mission/IAP/Ads). User và designer priority ngược nhau — chiến lược theo user trước |
 | [[auto-equip-design]] | auto-equip 3 loại game | Auto-equip phù hợp game 1 hero (Loại 1) hoặc 10+ hero (Loại 3), không phù hợp 1-5 hero không có fun role (Loại 2b) |
+| [[mep-mep-affordance]] | mép mép, edge affordance | Grid 5×6 + mép phía dưới = user reflex vuốt, không cần text/arrow guide |
+| [[user-test-no-explanation]] | dont explain test | User hỏi = signal fail communication. Explain = invalidate data |
+| [[icon-vs-text-framework]] | icon vs text, +1 slot text | D0-D7 icon+text; D7+ icon-only. Text cap 5-7 ký tự. Custom feature cần text |
+
+### UI Wireframe & Hierarchy (Doc 6 Part 1)
+
+| Article | Aliases | Summary |
+|---------|---------|---------|
+| [[ui-wireframe-workflow]] | 3 bước UI, Core vs Flow | Vũ workflow VN: (1) chọn approach Core vs Flow, (2) draft vuông tròn tam giác + đắp case, (3) làm UI thật với levels |
+| [[ui-button-3-levels]] | 3 level nút, Key Blue Hidden | Key (thumb zone gameplay), Blue (optional event/achievement), Hidden (settings/tab) |
+| [[ui-button-3-spawn-types]] | popup state luồng lên đới | Mỗi nút trigger: (1) Popup báo cứng, (2) State của button, (3) Luồng phụ. List trước khi vẽ |
+| [[ui-rule-max-2-levels]] | rule 2 tầng, max depth UI | UI tối đa 2 tầng menu. Setting → option (đúng); Setting → Music → Stereo/BGM/SFX (sai) |
+| [[ui-5-color-brief]] | 5 màu UI brief | Đỏ (chú ý cao IAP), Cam (monetize ad), Vàng (core gameplay), Xanh lá (deemphasize), Xanh dương (rare confusion) |
+| [[clash-royale-percent-stat-display]] | base × % per level | HP = Base × (1 + 10% × level). Đơn giản hơn table absolute. User nhớ base + level |
+
+### Art & Animation (Doc 5)
+
+| Article | Aliases | Summary |
+|---------|---------|---------|
+| [[art-brief-3-parts]] | art brief 3 thành phần | Art Style (form, joints, ratios) + Level Detail (mật độ chi tiết) + Color (palette per đối tượng + contrast) |
+| [[form-base-art-template]] | form base, con đầu tiên 10 điểm | Vẽ 1 con kỹ → fix tỷ lệ → các con sau đổi outfit/đầu, giữ chân tay. Production line-able |
+| [[animation-brief-essentials]] | anim brief, frame chuẩn | Detail per action + transition + frame count + FPS + tương tác môi trường + biên độ theo form |
+| [[hit-reaction-3-approaches]] | hit reaction 3 cách, dồn | Kệ mẹ (brawler), Block Time (song đấu), Anim Kêu Lại (chiến thuật cào bằng) |
+| [[projectile-design-types]] | projectile 3 type | Cắt ra là chúng (default mass), Platformer (chạm thật), 3D real-position (homing/predict) |
+| [[blend-animation-pattern]] | blend anim, combo chain | Fade-out + fade-in 0.1-0.2s. Tránh vẽ N² transition files. Combo + wall collision |
+| [[gd-reverse-skin-time]] | GD reverse, fix skin time | Fix time trước (1s cast) → tính action nhồi → cân bằng số học. Result thực tế = lý thuyết |
+
+### UX Foundation (Doc 6 Part 2)
+
+| Article | Aliases | Summary |
+|---------|---------|---------|
+| [[heart-system-design]] | tim, lives system | Có tim: tăng session/day + monetize gate. Không tim: gameplay gây nghiện. Ad-for-heart > paywall |
+| [[multi-start-design]] | đa khởi đầu, class selection | 3 use cases (mạnh đầu/yếu đầu/phụ trợ), 3 risks (non-linear, balance mess, no restart). Encounter friendly fix regret |
+| [[material-count-decision-paralysis]] | số loại material, 2 vs 4 | 2 loại = habit-driven. 4 loại = paralysis. Mix-match worse. Default 2 cho casual/mid-core |
+| [[skin-bridging-comparison]] | ABC BCD ACD, skin overlap | Disjoint (ABC vs DEF) không so sánh được. Bridging (ABC/BCD/ACD) cho phép loại dần. A+ (same skill, stat khác) tối ưu |
+| [[slot-locked-upgrade]] | level gắn slot không gắn con | Upgrade gắn slot (helmet, armor) → swap áo giữ level. Phá cơ chế trừng phạt, user experiment thoải mái |
+| [[single-button-skill-collapse]] | Negabon 1-tap skill | Negabon (Hiệp) collapse Pokemon 4-tap skill flow → 1 tap. Tap thanh giữa = skill, thanh bên = attack |
+| [[clash-of-clans-punishment-evolution]] | quân chết hồi, phá trừng phạt | 3 versions: V1 quân chết hẳn → V2 hồi 1 phút → V3 không chết. Mass studios phase out punishment |
+| [[defending-design-decisions]] | bull start dự án bảo vệ | Document reasoning trước khi pitch. Test rẻ = thử. Test đắt = defend logic. Fail không reasoning = không iterate |
 
 ### User Segmentation
 
@@ -120,7 +163,7 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[hiep-iec]] | Hiệp IEC, co-lecturer | Co-lecturer khóa GD Negaxy + IEC. Đóng góp LTV>CPI, test prototype không quảng cáo, giãn inter LTV 60-70% |
 | [[giang-student]] | Giang IAA IAP, Giang Pull-the-Pin | Học viên case study lặp lại (Whale Content Burn, IAA→IAP migration, Pull-the-Pin multivariable, gói tướng meta) |
 
-## Comparisons (9 articles)
+## Comparisons (15 articles)
 
 | Article | Aliases | Summary |
 |---------|---------|---------|
@@ -133,10 +176,16 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | [[mobile-vs-pc-console-skill]] | mobile vs PC, dung sai input | Mobile phải tối đa dung sai (user làm chưa đúng cũng cho làm đủ); PC/Console combo phức tạp OK |
 | [[leaderboard-permanent-vs-seasonal]] | leaderboard vĩnh viễn vs theo mùa | Vĩnh viễn giữ whale; theo mùa cho user mới cơ hội. Trade-off: whale-retention vs user-acquisition |
 | [[user-archetype-asset-vs-self-expression]] | tài sản vs thể hiện bản thân | Nhóm Tài Sản (RoK — build lòng vòng, đợi đủ lớn rồi đánh) vs Nhóm Thể Hiện (Chess, TD — build thẳng, PvP sớm) |
+| [[equip-flow-hero-vs-weapon]] | equip từ hero vs từ weapon | Từ hero (3 bước, tutorial-friendly) vs từ weapon (3 bước, tổng quan rare hierarchy + icon owner). Vẽ 2 drafts để compare |
+| [[vector-vs-bitmap-game-art]] | vector vs bitmap, format art game | Vector sharp at any zoom + outline 2-3 pixel (card games). Bitmap đẹp 100% nhưng vỡ zoom out |
+| [[cast-time-cao-bang-vs-per-con]] | cast time approach | Cào bằng: code đơn giản, balance accurate. Per con: feel rich, balance lý thuyết ≠ thực tế |
+| [[farm-game-resource-gates]] | Farm vs Hay Day vs Township | Cùng "trồng cây" nhưng resource gate khác → UX khác. Theft + seed → seed only → tiền + batch unlimited |
+| [[clash-royale-vs-warcraft-rumble]] | skill-gated vs asset-friendly | Clash Royale = PvP skill gate (skill player). Warcraft Rumble = PvE asset-friendly (asset player). Forced choice archetype |
+| [[hearthstone-vs-uvo-card-text]] | keyword compression vs dense | uvo dense text = niche. Hearthstone keyword (taunt, charge) = mass audience parse trong 2 giây |
 
 ---
 
-## Raw Sources (15 documents)
+## Raw Sources (19 documents)
 
 | Source | Type | Date Ingested |
 |--------|------|---------------|
@@ -151,8 +200,12 @@ summary: "Master index listing all wiki articles with summaries and aliases"
 | `raw/papers/XGAME_DA_ ..._Retention.pdf` | Paper (XGAME Retention dashboard, 5 pages, 6 charts) | 2026-05-06 |
 | `raw/videos/negaxy-iec-gd-doc-01-gd-role-mindset.md` | Video transcript (Buổi 1 — mindset, 485 dòng) | 2026-05-15 |
 | `raw/videos/negaxy-iec-gd-doc-02-level-design.md` | Video transcript (Buổi 2 — level design, 364 dòng) | 2026-05-15 |
-| `raw/videos/negaxy-iec-gd-doc-03-phase-du-an.md` | Video transcript (Buổi 3 — phase dự án, 690 dòng) | 2026-05-15 |
+| `raw/videos/negaxy-iec-gd-doc-03-phase-du-an.md` | Video transcript (Buổi 3 — phase dự án, 1313 dòng) | 2026-05-15 |
 | `raw/videos/negaxy-iec-gd-doc-04-level-data-and-iap.md` | Video transcript (Buổi 4 — level data + IAP, 411 dòng) | 2026-05-15 |
+| `raw/videos/negaxy-iec-gd-doc-05-part-1-art.md` | Video transcript (Buổi 5 P1 — Art, 327 dòng) | 2026-05-20 |
+| `raw/videos/negaxy-iec-gd-doc-05-part-2-animation.md` | Video transcript (Buổi 5 P2 — Animation, 385 dòng) | 2026-05-20 |
+| `raw/videos/negaxy-iec-gd-doc-06-part-1-ui.md` | Video transcript (Buổi 6 P1 — UI, 463 dòng) | 2026-05-20 |
+| `raw/videos/negaxy-iec-gd-doc-06-part-2-ux.md` | Video transcript (Buổi 6 P2 — UX, ~470 dòng) | 2026-05-20 |
 | `raw/videos/negaxy-iec-gd-doc-07-ui-ux-monetize.md` | Video transcript (Buổi 7 — UI/UX/Monetize, 631 dòng) | 2026-05-15 |
 | `raw/videos/negaxy-iec-gd-doc-08-phan-tap-user.md` | Video transcript (Buổi 8 — phân tập user, 350 dòng) | 2026-05-15 |
 

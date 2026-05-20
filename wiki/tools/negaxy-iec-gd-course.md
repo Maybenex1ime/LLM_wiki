@@ -27,12 +27,15 @@ Khóa **Game Design Course by Negaxy + IEC** là chuỗi 8 buổi học do Vũ (
 | 2 | Level Design | [[match3-difficulty-levers]], [[inter-reward-ratio]], [[asset-hardware-tradeoff]], [[feeling-of-assets]], [[level-content-vs-level-data]], [[replay-rate-distribution]] | 6 concepts |
 | 3 | Phase Dự Án | [[prototype-vs-mvp]], [[fueling-pacing]], [[d7-vs-d3-breakeven]], [[balance-scale]], [[arpu-vs-arppu]], [[imba-balance-meta]], [[ui-vs-ux]] | 7 concepts |
 | 4 (đảo từ buổi 6) | Level Data + IAP | [[file-y-do-design-intent]], [[level-data-vs-handcrafted]], [[pattern-habit-break]], [[match3-player-archetypes]], [[hidden-variable-difficulty]], [[iap-pricing-user-value]], [[iap-purchase-drivers]], [[rpg-unit-weakness-principle]] | 8 concepts |
-| 5-6 | (không có note compile riêng) | UI deep-dive (split thành 2 video) | — |
+| 5 P1 | Art Brief & Workflow | [[art-brief-3-parts]], [[form-base-art-template]], [[mep-mep-affordance]], [[vector-vs-bitmap-game-art]] | 4 articles |
+| 5 P2 | Animation Brief | [[animation-brief-essentials]], [[cast-time-cao-bang-vs-per-con]], [[hit-reaction-3-approaches]], [[projectile-design-types]], [[blend-animation-pattern]], [[gd-reverse-skin-time]] | 6 articles |
+| 6 P1 | UI Wireframe | [[ui-wireframe-workflow]], [[ui-button-3-levels]], [[ui-button-3-spawn-types]], [[ui-rule-max-2-levels]], [[ui-5-color-brief]], [[clash-royale-percent-stat-display]], [[icon-vs-text-framework]], [[user-test-no-explanation]], [[equip-flow-hero-vs-weapon]] | 9 articles |
+| 6 P2 | UX Định Nghĩa | [[ux-yeu-ich-definition]], [[behavior-vs-stated-preference]], [[value-perception-techniques]], [[inherited-habit-conventions]], [[heart-system-design]], [[multi-start-design]], [[material-count-decision-paralysis]], [[skin-bridging-comparison]], [[slot-locked-upgrade]], [[single-button-skill-collapse]], [[clash-of-clans-punishment-evolution]], [[defending-design-decisions]], [[farm-game-resource-gates]], [[clash-royale-vs-warcraft-rumble]], [[hearthstone-vs-uvo-card-text]] | 15 articles |
 | 7 | UI/UX & Monetize | [[ux-3-criteria]], [[notification-management]], [[thumb-zone-design]], [[auto-equip-design]], [[dark-ux-techniques]], [[piggy-bank-monetization]], [[subscription-pack-design]], [[first-iap-strategy]] | 8 concepts |
 | 8 | Phân Tập User | [[user-segmentation-3-axes]], [[s-t-genre-grid]], [[mobile-vs-pc-console-skill]], [[organic-rate-interpretation]], [[leaderboard-permanent-vs-seasonal]], [[user-archetype-asset-vs-self-expression]] | 6 concepts |
 | 9 (kế hoạch) | Review sản phẩm thực tế | Mỗi team 30 phút | — |
 
-Buổi 4 (Level Data) theo curriculum là buổi 6 nhưng được đảo lên dạy trước Doc 3. Buổi 5-6 là 2 video chia phần (UI part 1 + UX part 2) không có compile note riêng do nội dung được absorb vào Doc 7.
+Buổi 4 (Level Data) theo curriculum là buổi 6 nhưng được đảo lên dạy trước Doc 3. Buổi 5 chia thành Part 1 (Art) và Part 2 (Animation). Buổi 6 chia thành Part 1 (UI) và Part 2 (UX) — buổi 6 P2 dừng giữa chừng (87 phút), phần Dark UX còn lại dời sang buổi sau (sẽ trùng nội dung Doc 7).
 
 ## Vai Trò Trong Wiki
 
@@ -55,7 +58,7 @@ Khóa Negaxy + IEC là nguồn của **toàn bộ phần "Vietnamese game design
 - **Không sâu RPG / MOBA** — Vũ tự note *"khóa này không có phần RPG sâu"*.
 - **Số liệu cũ ở một số chỗ** — Vũ note Amanote số liệu là 2019, không chắc 2026 còn đúng.
 - **Style art / aesthetic direction** — Doc 2 reference Doc 7 nhưng Doc 7 không deep-dive.
-- **Buổi 5-6 transcript chia 2 video không compile note** — nội dung lost một phần.
+- **Buổi 6 P2 dừng giữa chừng** (87 phút thay vì ~110) — Dark UX/Upstreet thinking dời sang buổi sau, một phần overlap với Doc 7.
 - **Tiếng Việt phát âm vùng — whisper transcript có hallucination** ở head/tail, một số đoạn lặp loop.
 - **Không có public material** (slides, exercises) — chỉ có audio/video recording.
 
@@ -70,5 +73,5 @@ Vũ giới thiệu cuối Doc 8:
 ## Nguồn Tham Khảo
 
 - Folder: `raw/videos/Game Design Course by Negaxy + IEC/`
-- 6 transcript notes ở `raw/videos/negaxy-iec-gd-doc-01..08-*.md` (Doc 5-6 chưa compile)
+- 9 transcript notes ở `raw/videos/negaxy-iec-gd-doc-01..08-*.md` (Doc 5 P1, 5 P2, 6 P1, 6 P2 đã compile 2026-05-20)
 - Buổi 9 review chưa diễn ra tại thời điểm compile

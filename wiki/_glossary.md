@@ -280,3 +280,83 @@ summary: "Key terms and definitions used across the wiki"
 **Translation:** Class cố định cho hero
 **Definition:** Khi mỗi hero có class riêng (kiếm/cung/giáo), pool đồ phân tách → không tranh đồ. Quyết định auto-equip có phù hợp hay không.
 **See also:** [[auto-equip-design]]
+
+## Yêu Ích
+**Translation:** UX (User Experience) theo cách dịch của Vũ
+**Definition:** Tối ưu hoá trải nghiệm người dùng × tối đa hoá lợi ích nhà sản xuất. Định nghĩa từ sách của nhà thiết kế đồ gia dụng Pháp, được nhận là nguồn inspire cho thiết kế chính Apple. Khác UX academic — game studio version có dual-goal đi cặp monetization.
+**See also:** [[ux-yeu-ich-definition]]
+
+## Hành Vi vs Lời Nói
+**Translation:** Behavior vs Stated Preference
+**Definition:** User nói A, làm B → designer phải design cho B. Lời nói rẻ và không tin cậy; hành vi đắt nhưng đáng tin (analytics, playtest, A/B test). Cảm xúc ≠ sự thật.
+**See also:** [[behavior-vs-stated-preference]]
+
+## Big Numbers
+**Translation:** Cảm xúc số to
+**Definition:** Cùng tỷ lệ purchasing power, số to (100 gold) cảm xúc hơn số nhỏ (1 gold). Currency scale chọn từ đầu — không downscale được sau.
+**See also:** [[value-perception-techniques]]
+
+## Anchor Effect (Gift-on-Package)
+**Translation:** Hiệu ứng neo, tặng trên total package
+**Definition:** "Tặng X trên tổng gói Y" (Y > X) khiến user cảm thấy deal — phát sinh nhu cầu mua. "Tặng X" thuần không có anchor → user không thấy giá trị. Anti-pattern: starter pack không hiển thị giá gốc gạch ngang.
+**See also:** [[value-perception-techniques]], [[first-iap-strategy]]
+
+## Inherited Habit
+**Translation:** Thói quen kế thừa
+**Definition:** Icon/pattern user đã quen từ game khác (home, hotel, settings, play). Reinvent = friction. Default: dùng convention sẵn có.
+**See also:** [[inherited-habit-conventions]]
+
+## 3 Giảm Thiểu (3 Reductions)
+**Translation:** 3 nguyên tắc minimization UI/UX
+**Definition:** (1) Giảm số bước, (2) Giảm lượng thông tin, (3) Giảm lượng quyết định. Doc 6 P2 introduce, Doc 7 expand với case study cụ thể.
+**See also:** [[ux-3-criteria]]
+
+## Multi-Start
+**Translation:** Đa khởi đầu
+**Definition:** Pattern onboarding cho user chọn role/class đầu game ảnh hưởng gameplay. 3 use cases (mạnh đầu/yếu đầu/phụ trợ), 3 risks (non-linear, balance mess, no restart path). Khác Customize Start (cosmetic only).
+**See also:** [[multi-start-design]]
+
+## Material Count
+**Translation:** Số loại tài nguyên upgrade
+**Definition:** 2 loại = habit-driven, 4+ loại = decision paralysis. Game design hay sai phía "phong phú" → kill habit. Default 2 cho casual/mid-core.
+**See also:** [[material-count-decision-paralysis]]
+
+## Skin Bridging
+**Translation:** Skill set overlap để bắc cầu so sánh
+**Definition:** Pattern ABC/BCD/ACD cho phép user so sánh card qua skill chung. Disjoint (ABC vs DEF) không có cơ sở compare. A+ (same skill, stat khác) tối ưu nhất.
+**See also:** [[skin-bridging-comparison]]
+
+## Slot-Locked Upgrade
+**Translation:** Level gắn slot không gắn con
+**Definition:** Equipment upgrade gắn slot (helmet, armor) thay vì cái áo cụ thể. User swap áo giữ level → no penalty, habit-friendly.
+**See also:** [[slot-locked-upgrade]]
+
+## Heart System
+**Translation:** Hệ thống tim / mạng / lives
+**Definition:** Bottleneck cho số phiên chơi. Có tim → tăng session/day + monetize gate. Không tim → gameplay phải gây nghiện. Ad-for-heart > paywall money cho ad-funded game.
+**See also:** [[heart-system-design]]
+
+## Cào Bằng (Cast Time)
+**Translation:** Equal cast time across units
+**Definition:** Approach: tất cả unit dùng C1 cast time. Code đơn giản, balance accurate (DPS = damage/time pure). Đối lập Per Con (riêng từng unit, balance theory ≠ thực tế).
+**See also:** [[cast-time-cao-bang-vs-per-con]]
+
+## Hit Reaction
+**Translation:** Anim phản ứng khi bị tấn công
+**Definition:** Ngửa người ~0.4s. Bài toán dồn: attacker hit liên tiếp khi defender chưa recover. 3 cách xử lý: Kệ Mẹ (brawler), Block Time (song đấu), Anim Kêu Lại (chiến thuật).
+**See also:** [[hit-reaction-3-approaches]]
+
+## Form Base
+**Translation:** Tỷ lệ thân thể chuẩn cho production line
+**Definition:** Vẽ 1 con kỹ (10 điểm) → fix tỷ lệ chân tay → các con sau đổi outfit/đầu giữ form. 3 form recommended: trung bình / béo / gầy.
+**See also:** [[form-base-art-template]]
+
+## Mép Mép Affordance
+**Translation:** Visual cue cho vuốt qua layout
+**Definition:** Grid 5×6 + row mép phía dưới (30-40% chiều cao) → user reflex vuốt. Hide affordance trong layout, không qua text/arrow.
+**See also:** [[mep-mep-affordance]]
+
+## Bull Start Dự Án Phải Bảo Vệ
+**Translation:** Document reasoning trước khi pitch
+**Definition:** GD phải có khuôn lý do cho mọi feature decision. UA/sếp/code hỏi "tại sao?" → GD trả lời được = pass; không trả lời = fail communication. Fail test mà không có reasoning = không iterate.
+**See also:** [[defending-design-decisions]]
